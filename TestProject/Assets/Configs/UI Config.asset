@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db6ab0a644ab4e30a887dc487960ac1b, type: 3}
+  m_Name: UI Config
+  m_EditorClassIdentifier: 
+  m_StatusBarConfig:
+    m_StatusBarPrefab: {fileID: 6745673071394468992, guid: 08dd939aa2d64924abf9916e1d994717, type: 3}
+    m_ProjectStartedStatusText: "\u041D\u0438\u0447\u0435\u0433\u043E \u043D\u0435
+      \u043D\u0430\u0436\u0430\u0442\u043E"
+    m_OpenedWindowStatusText: "\u041D\u0430\u0436\u0430\u043B\u0438 \"\u041E\u0442\u043A\u0440\u044B\u0442\u044C
+      {0}\""
+    m_ClosedWindowStatusText: "{0} \u0437\u0430\u043A\u0440\u044B\u0442\u043E "
+  m_WindowConfig:
+    m_WindowPrefabs:
+    - {fileID: 8760637267634675741, guid: 27b0dffa29f66fd4caa2b6e6023dd2f2, type: 3}
+    - {fileID: 599111516651144503, guid: 526228c8ce23db343b2c02b00a7f555c, type: 3}
+    - {fileID: 1692721583602949011, guid: 84702a03e09fd7e438a42579c8531d60, type: 3}
+    - {fileID: 3341218864949831703, guid: 62193eac98f2fbe4d815820a5220a855, type: 3}
+    m_TitleText: '{0}'
+    m_CurrentWindowMessageText: "\u041E\u043A\u043D\u043E \u043E\u0442\u043A\u0440\u044B\u0442\u043E
+      {0} \u0440\u0430\u0437"
+    m_PreviousWindowMessageText: "\u041F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0435\u0435
+      \u043E\u0442\u043A\u0440\u044B\u0442\u043E\u0435 \u043E\u043A\u043D\u043E:
+      {0}"
+  m_ButtonsConfig:
+    m_ButtonsPrefab: {fileID: 7551165761451445682, guid: 45a88ff1431320f4bbe5e5bd71be2056, type: 3}
+    m_ButtonText: "\u041E\u0442\u043A\u0440\u044B\u0442\u044C {0}"
